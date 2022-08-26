@@ -22,7 +22,8 @@ clean:
 ifneq ($(PREFIX),)
 install: install-license
 install-license: LICENSE
-	mkdir -p $(DESTDIR)$(PREFIX)/share/doc/c-win-shw
-	cp LICENSE $(DESTDIR)$(PREFIX)/share/doc/c-win-shw
+	@echo 'I share/doc/c-win-shw/LICENSE'
+	@mkdir -p $(DESTDIR)$(PREFIX)/share/doc/c-win-shw
+	@cp LICENSE $(DESTDIR)$(PREFIX)/share/doc/c-win-shw
 endif
 ## -- license --
