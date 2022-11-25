@@ -1,4 +1,4 @@
-export AUTO_C_INSTALL_LICENSE=n
+export DEVH_INSTALL_LICENSE=n
 ## -- AUTO --
 auto() {
     auto-c-mit "$@"
