@@ -7,8 +7,6 @@ install:
 	@true
 clean:
 	rm -f $(PROGRAMS)
-
-
 ifneq ($(CC64),)
 x64/shw.exe : shw.c
 	$(CC64) $(CFLAGS) -o $@ $<
