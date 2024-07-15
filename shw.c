@@ -1,4 +1,3 @@
-// hflycheck:cc: x86_64-w64-mingw32-gcc
 #include <windows.h>
 #include <string.h>
 #include <libgen.h>
